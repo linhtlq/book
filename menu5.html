@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The libarty book</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
+ <style> 			
+	 span.giua {position:absolute;
+	right: 500px;}
+	 span.cuoi {position:absolute;
+	right: 100px;}
+			
+	.sidenav {
+      background-color: #CDC4CD;
+      height: 100%;
+	  }
+	.navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+	}
+	.footer {
+		background-color:#f2f2f2;
+		padding:25px;
+	}
+	.hinh{
+	width:280px;
+	height:300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;	
+	}
+	img {
+	width:200px;
+	height:250px;
+	}
+	
+	footer {
+	background-color:#555;
+	color:white;
+	padding:15px;
+	margin-top:20px;
+	}
+	
+</style>
+<body>
+<nav class="nav navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Bookstore</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="menu.html">Book</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-log-in">login</span></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="jumbotron">	
+	<img class="hinh" src="sach/background.JPG" alt="hinh">
+</div>
+
+<div class="container-fluid text-left">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <h4>Loại sách</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="menu.html">Novel</a></li>
+        <li><a href="menu2.html">Lightnovel</a></li>
+        <li><a href="menu3.html">Comic</a></li>
+        <li><a href="menu4.html">Manga</a></li>
+		<li class="active"><a href="menu5.html">ART</a></li>
+		<li><a href="menu6.html">Programming Book</a></li>
+		<li><a href="menu7.html">Magazine</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search sách..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+	
+	<div class="col-sm-8">
+		<div class="jumbotron">
+		<p> Tên sách <span class="giua"> Số tập </span><span class="cuoi">Lượt xem</span></p>
+		<a href="art/1.html"><p><strong> Corel Draw</strong><span class="giua"><strong>1</strong></span><span class="cuoi">500</span></p></a>
+		<a href="art/2.html"><p><strong> Blender</strong><span class="giua"><strong>1</strong></span><span class="cuoi">220</span></p></a>
+		<a href="art/3.html"><p><strong> Flash</strong><span class="giua"><strong>1</strong></span><span class="cuoi">400</span></p></a>
+		<a href="art/4.html"><p><strong> Dreamweaver </strong><span class="giua"><strong>1</strong></span><span class="cuoi">600</span></p></a>
+		<a href="art/5.html"><p><strong> Photoshop</strong><span class="giua"><strong>1</strong></span><span class="cuoi">200</span></p></a>
+		</div>
+	</div>	
+	<div class="col-sm-2">	
+	<p><h4>Top Hot </h4></p>
+	<div class="thumbnail">
+	<p>1:<a href="lightnovel/1.html"> 5cm/s</a></p>
+	<p>2:<a href="lightnovel/5.html"> wolf children </a></p>
+	<p>3:<a href="lightnovel/2.html"> Re:zero </a></p>
+	<p>4:<a href="manga/3.html"> One piece </a></p>
+	<p>5:<a href="lightnovel/3.html"> Konosuba </a></p>
+	<p>6:<a href="lightnovel/4.html"> Spice&wolf </a></p>
+	<p>7:<a href="manga/2.html"> Death Note </a></p>
+	<p>8:<a href="manga/1.html"> Bleach </a></p>
+	<p>9:<a href="novel/3.html"> Lord Of The Ring</a></p>
+	<p>10:<a href="novel/1.html"> Harry Potter</a></p>
+	</div>
+	</div>
+	</div>
+</div>
+
+<footer class="container-fluid text-center">
+		<p>Made By Tran Le Quang Linh</p>
+		</footer>
+</body>

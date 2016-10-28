@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The libarty book</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
+ <style>
+ .navbar {
+		margin-bottom: 0;
+		border-radius: 0;
+	} 
+	
+	.hinh{
+	width:280px;
+	height:300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+	img { width:50px;
+		  height:50px;	
+	}
+	
+	footer {
+	background-color:#555;
+	color:white;
+	padding:15px;
+	} 
+	.container {margin-top:20px;}
+	body {background-image: url("2.jpg");}
+</style>
+<body>
+<nav class="nav navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Bookstore</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="menu.html">Book</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-log-in">login</span></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Contact us</legend>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+		<div class="col-md-6">		
+				<div class="row">					
+					<div class="col-md-2">
+						<img src="facebook.png">
+					</div>
+					<div class="col-md-10">
+						<a href="https://www.facebook.com/jeremylintran"><h3> https://www.facebook.com/jeremylintran </h3></a>
+					</div>
+					<div class="col-md-2">
+						<img src="gmail.jpg">
+					</div>
+					<div class="col-md-10">
+						<a><h3> linhtlqps05814@fpt.edu.vn </h3></a>
+					</div> 
+					<div class="col-md-2">
+						<img src="phone.png">
+					</div>
+					<div class="col-md-10">
+						<a><h3> 012247796**</h3></a>
+					</div>
+				</div>		
+		</div>
+</div>
+</body>
+</html>
